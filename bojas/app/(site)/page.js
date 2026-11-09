@@ -33,7 +33,7 @@ export default async function HomePage() {
 
           <div className="scout-card" aria-label="Example scouting report">
             <div className="row-split eyebrow muted" style={{ fontSize: 12 }}>
-              <span>Scouting report</span><span className="accent">Example</span>
+              <span>Scouting report</span><span className="accent">Featured Player</span>
             </div>
             <SiteImage id={c.heroImage} label="Player action photo" alt="" style={{ height: 220 }} eager />
             <div className="row-split" style={{ alignItems: 'flex-end' }}>
