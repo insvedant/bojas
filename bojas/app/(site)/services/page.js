@@ -1,15 +1,15 @@
 import Link from 'next/link';
 import { PageHero, CtaBand, Paragraphs } from '@/components/Blocks';
 import { getPageContent } from '@/lib/content';
-import { TacticalIcon, TechnicalIcon, OneOnOneIcon, MentalIcon } from '@/components/Icons';
+import { TacticalIcon, TechnicalIcon, MentalIcon } from '@/components/Icons';
 
 export const metadata = {
   title: 'Services',
-  description: 'Scouting, development, contract negotiations, career planning and 1v1 coaching for youth players aiming to turn professional.',
+ description: 'Scouting, player development, contract negotiations and career planning for youth players aiming to turn professional.',
   alternates: { canonical: '/services/' },
 };
 
-const ICONS = [TacticalIcon, TechnicalIcon, OneOnOneIcon, MentalIcon];
+const ICONS = [TacticalIcon, TechnicalIcon, MentalIcon];
 
 export default async function ServicesPage() {
   const c = await getPageContent('services');
