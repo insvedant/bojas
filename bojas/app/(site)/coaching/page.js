@@ -4,7 +4,7 @@ import { getPageContent } from '@/lib/content';
 
 export const metadata = {
   title: 'Coaching — Tactical, Technical & 1-on-1',
-  description: 'Tactical positioning, technical sessions and 1-on-1 coaching. We learn each young player’s style of play and identity to maximise their growth.',
+  description: 'Tactical positioning and technical sessions. We learn each young player’s style of play and identity to maximise their growth.',
   alternates: { canonical: '/coaching/' },
 };
 
