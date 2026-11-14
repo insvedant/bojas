@@ -54,8 +54,8 @@ export default async function AboutPage() {
               )}
               {(a.email || a.phone || a.languages.length > 0) && (
                 <dl className="facts" style={{ margin: 0 }}>
-                  {a.email && <div><dt>Email</dt><dd style={{ textTransform: 'none', fontSize: 18 }}><a href={`mailto:${a.email}`}>{a.email}</a></dd></div>}
-                  {a.phone && <div><dt>Phone</dt><dd><a href={`tel:${a.phone.replace(/[^+\d]/g, '')}`}>{a.phone}</a></dd></div>}
+                 {a.email && <div><dt>Email</dt><dd className="plain"><a href={`mailto:${a.email}`}>{a.email}</a></dd></div>}
+{a.phone && <div><dt>Phone</dt><dd className="plain"><a href={`tel:${a.phone.replace(/[^+\d]/g, '')}`}>{a.phone}</a></dd></div>}
                   {a.languages.length > 0 && <div><dt>Languages</dt><dd>{a.languages.join(', ')}</dd></div>}
                 </dl>
               )}
